@@ -6,7 +6,8 @@
     RUN apk add --no-cache git
     
     # Clone your frontend repo
-    RUN git clone https://github.com/suneethabulla/carrental-frontend.git
+    RUN git clone https://github.com/1916-pravallika/docker-backend-exam.git .
+
  .
     
     # Install deps and build
