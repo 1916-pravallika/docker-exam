@@ -6,7 +6,8 @@
     RUN apt-get update && apt-get install -y git
     
     # Clone your backend repo
-    RUN git clone https://github.com/suneethabulla/carrental-backend.git .
+    RUN git clone https://github.com/1916-pravallika/docker-backend-exam.git
+ .
     
     # Build the Spring Boot JAR (cache Maven dependencies for speed)
     RUN --mount=type=cache,target=/root/.m2 mvn clean install package -DskipTests
